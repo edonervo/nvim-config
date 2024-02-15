@@ -76,6 +76,11 @@ return packer.startup(function(use)
 
 use {'andymass/vim-matchup' , event = 'VimEnter'}
 
+-- Colorschemes
+  use {'lunarvim/colorschemes'}
+  use {'folke/tokyonight.nvim'}
+  use 'Mofiqul/vscode.nvim'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

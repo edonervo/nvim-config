@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  colorschemes = {
+    loaded = true,
+    path = "/home/edo/.local/share/nvim/site/pack/packer/start/colorschemes",
+    url = "https://github.com/lunarvim/colorschemes"
+  },
   ["markdown-preview.nvim"] = {
     loaded = true,
     path = "/home/edo/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
@@ -102,6 +107,11 @@ _G.packer_plugins = {
     path = "/home/edo/.local/share/nvim/site/pack/packer/opt/rainbow_csv.nvim",
     url = "https://github.com/cameron-wags/rainbow_csv.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/edo/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   ["vim-closer"] = {
     loaded = true,
     path = "/home/edo/.local/share/nvim/site/pack/packer/start/vim-closer",
@@ -122,6 +132,11 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/home/edo/.local/share/nvim/site/pack/packer/opt/vim-matchup",
     url = "https://github.com/andymass/vim-matchup"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/home/edo/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 
