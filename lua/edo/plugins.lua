@@ -49,6 +49,18 @@ return packer.startup(function(use)
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
   use 'Mofiqul/vscode.nvim'
+
+  -- cmp plugins
+  use "hrsh7th/nvim-cmp" -- The completion plugin
+  use "hrsh7th/cmp-buffer" -- The completion plugin
+  use "hrsh7th/cmp-path" -- The completion plugin
+  use "hrsh7th/cmp-cmdline" -- The completion plugin
+  use "saadparwaiz1/cmp_luasnip" -- The completion plugin
+
+  -- snippets
+  use "L3MON4D3/LuaSnip" -- snippet engine
+  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
