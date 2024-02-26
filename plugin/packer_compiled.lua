@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/edo/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["glow.nvim"] = {
+    loaded = true,
+    path = "/home/edo/.local/share/nvim/site/pack/packer/start/glow.nvim",
+    url = "https://github.com/ellisonleao/glow.nvim"
+  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/home/edo/.local/share/nvim/site/pack/packer/start/impatient.nvim",
